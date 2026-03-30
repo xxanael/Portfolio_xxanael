@@ -117,6 +117,10 @@ img:hover{
     color: rgb(108, 193, 226);
 }
 
+.home-button{
+  padding: auto;
+}
+
 
 /* From Uiverse.io by mrhyddenn */ 
 button {
@@ -379,7 +383,7 @@ footer{
 
 @media (max-width: 768px) {
 
-  /* NAV */
+
   nav {
     flex-direction: column;
     align-items: center;
@@ -395,13 +399,19 @@ footer{
     margin: 0;
   }
 
-  /* MAIN */
   main {
     margin: 0;
     padding: 0.5rem;
   }
 
-  /* HOME */
+  .social-icons{
+    align-items: center;
+  }
+
+  .home-button{
+    margin-right: 0.5rem;
+  }
+
   .Home {
     height: auto;
     margin-top: 20px;
@@ -441,7 +451,7 @@ footer{
     width: 100%;
   }
 
-  /* WORDS WRAPPER */
+
   .words-wrapper {
     font-size: 18px;
     flex-wrap: nowrap;
@@ -458,7 +468,7 @@ footer{
     font-size: 18px;
   }
 
-  /* ABOUT */
+
   .About-content {
     flex-direction: column;
     align-items: center;
@@ -472,7 +482,6 @@ footer{
     margin-bottom: 0;
   }
 
-  /* SKILLS */
   .Skills-content {
     flex-direction: column;
     align-items: center;
@@ -495,12 +504,16 @@ footer{
     padding: 1.5rem;
   }
 
-  /* CTF */
+
   .CTF-content {
     padding: 1.5rem;
   }
 
-  /* FOOTER */
+  .CTF{
+    margin-bottom: 70px;
+  }
+
+
   footer {
     padding: 1rem;
     font-size: 12px;
