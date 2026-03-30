@@ -9,7 +9,6 @@ Tu peux consulter le site en direct ici :
 
 ## 🛠️ Technologies utilisées
 * **HTML5 / CSS3** : Structure et design (Glassmorphism & animations personnalisées).
-* **JavaScript** : Interactions et gestion du menu actif.
 * **Font Awesome** : Icônes techniques.
 
 ## 🛡️ À propos de moi
