@@ -378,35 +378,53 @@ footer{
 }
 
 @media (max-width: 768px) {
-  .home-main {
+
+  nav {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    gap: 10px;
   }
 
-  .home-img {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .words-wrapper{
+  nav ul {
+    gap: 1rem;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-left: 7rem;
+    padding: 0;
   }
 
-  img {
-    height: 200px;
-    width: 200px;
+  .Skills-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 
-  .home-icons {
-    margin-left: 0;
-    text-align: center;
+  .lot-1, .lot-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .Home {
+  .Skills-card {
+    width: 80vw;
     height: auto;
-    margin-top: 30px;
+    margin-right: 0;
+    padding: 1.5rem;
   }
+
+  footer {
+    padding: 1rem;
+    font-size: 13px;
+    word-break: break-word;
+  }
+
+  .words-wrapper {
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.dynamic-box {
+  min-width: 200px;
+}
+
 }
 
