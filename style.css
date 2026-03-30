@@ -382,49 +382,126 @@ footer{
   nav {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    padding: 8px;
   }
 
   nav ul {
-    gap: 1rem;
+    gap: 0.8rem;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+    margin: 0;
   }
+
+  main {
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  .Home {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .home-main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .home-content {
+    padding: 1rem 0.5rem;
+    width: 100%;
+  }
+
+  .home-content p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .home-icons {
+    margin-left: 0;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .words-wrapper {
+    font-size: 18px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dynamic-box {
+    min-width: 0;
+    width: 160px;
+  }
+
+  .word {
+    font-size: 18px;
+  }
+
+
+  .About-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .About-contenu {
+    width: calc(100vw - 3rem);
+    min-height: auto;
+    padding: 1.5rem;
+    margin-bottom: 0;
+  }
+
 
   .Skills-content {
     flex-direction: column;
     align-items: center;
     padding: 0;
+    margin-bottom: 40px;
   }
 
   .lot-1, .lot-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .Skills-card {
-    width: 80vw;
+    width: calc(100vw - 4rem);
     height: auto;
     margin-right: 0;
+    margin-bottom: 15px;
     padding: 1.5rem;
   }
 
-  footer {
-    padding: 1rem;
-    font-size: 13px;
-    word-break: break-word;
+
+  .CTF-content {
+    padding: 1.5rem;
   }
 
-  .words-wrapper {
-  font-size: 20px;
-  flex-wrap: wrap;
-}
 
-.dynamic-box {
-  min-width: 200px;
-}
+  footer {
+    padding: 1rem;
+    font-size: 12px;
+    word-break: break-word;
+    line-height: 1.6;
+  }
 
 }
-
