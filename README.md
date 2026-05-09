@@ -5,7 +5,7 @@ Ce site présente mon parcours en tant qu'étudiant en **Sécurité des Système
 
 ## 🌐 Aperçu en ligne
 Tu peux consulter le site en direct ici : 
-👉 **[Lien vers ton site GitHub Pages](https://xxanael.github.io/Portfolio_xxanael/)**
+👉 **[Lien vers mon portfolio](https://xxanael.github.io/Portfolio_xxanael/)**
 
 ## 🛠️ Technologies utilisées
 * **HTML5 / CSS3** : Structure et design (Glassmorphism & animations personnalisées).
